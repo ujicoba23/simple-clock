@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Use min-height to prevent vertical scrolling */
+    margin: 0;
+    background-color: #1a1a1a;
+    color: #080808;
+    font-size: 5rem;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.clock {
+    border: 5px solid #20c41a;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(27, 25, 25, 0.5);
+}
+
+button {
+    background-color: #c90d0d;
+    color: #fff;
+    font-size: 2rem;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: auto; /* Push the button to the bottom */
+}
+
+button:hover {
+    background-color: #ff1414;
+}
